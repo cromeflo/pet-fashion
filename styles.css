@@ -1,0 +1,123 @@
+/* reset: Remover los estilos que vienen por defecto con el navegador */
+/* "*" = Todo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    /* border: solid 3px; */
+    display: flex;
+    /* alineación horizontal */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#div-header {
+    color: darkblue;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+img {
+    border-radius: 50%;
+    /* box-shadow: #000 20 ; */
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.hero {
+    /* border: solid; */
+    background: url("https://t4.ftcdn.net/jpg/06/06/16/75/360_F_606167564_HBhjUrTKHWLSXFPBDq3h3xpBGuEi2aDC.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vw;
+    display: flex;
+        flex-direction: column;
+    align-items: flex-start;
+        justify-content: center;
+    padding: 40px;
+    color: #fff;
+        position: relative;
+}
+
+h1 {
+    font-size: 40px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+p {
+    font-size: 18px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.mensaje {
+    padding: 15px;
+    border-radius: 8px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: right;
+    color: #fff;
+    width: 200px;
+}
+
+.btn-estilos {
+    margin-top: 20px;
+    /* border: solid 4px; */
+    position: absolute;
+    background-color: #ffa75f;
+        color: #fff;
+    width: 140px;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.promotion {
+    background-color: #ffa75f;
+    padding: 15px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    color: #fff;
+    width: 225px;
+}
+
+.promotion h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.promotion img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.promotion p {
+    font-size: 14px;
+    margin-top: 10px;
+}
